@@ -31,7 +31,7 @@ body, html {
 section#login {
     background-color: white;
     width: 300px;
-    height: 600px;
+    height: 560px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
@@ -52,7 +52,7 @@ section#login > div#imagem {
 
 section#login > div#formulario {
     display: block;
-    padding: 10px;
+    text-align: center;
 }
 
 section#login > div#formulario > h1 {
@@ -60,18 +60,83 @@ section#login > div#formulario > h1 {
     font-size: 1.3em;
     background-color: #6392BC;
     margin: 0px -10px 0px -10px;
-    padding: 10px;
-    
+    padding: 5px;
 }
 
 section#login > div#formulario > p {
     text-align: center;
     font-size: 0.8em;
-    padding: 10px;
-    margin: 10px -10px 0px -10px;
+    margin: 0px -10px 0px -10px;
     background-color: #6392BC;
-    
-    
+    padding: 0px 10px 0px 10px;
+}
 
+form > div.campo > span {
+    width: 25px;
+    margin-left: -30px;
+    background-color: #6392BC;
+    border-radius: 50%;
+}
+
+form > div.campo > input {
+    width: 80%;
+    height: 30px;
+    background-color: #CDC2AC;
+    border: none;
+    border-radius: 5px;
+   
+    
+}
+
+form > div.campo > label {
+    display: none;
+}
+
+
+form > input[type=submit] {
+    width: 80%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #CDC2AC;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form > input[type=reset] {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 5px;
+    background-color: #CDC2AC;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form > button {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 5px;
+    background-color: #CDC2AC;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    background-color: #918878;
+}
+
+form > input[type=reset]:hover {
+    background-color: #918878;
+}
+
+form > button:hover {
+    background-color: #918878;
+}
+
+form > div.campo > input:focus-within {
+    background-color: white;
 }
 
