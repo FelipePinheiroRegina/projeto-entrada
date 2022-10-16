@@ -53,8 +53,6 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
-    color: #CDC2AC;
-    
 }
 
 section#login > div#formulario > h1 {
@@ -62,8 +60,8 @@ section#login > div#formulario > h1 {
     font-size: 1.3em;
     background-color: #6392BC;
     margin: 0px -10px 0px -10px;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+    padding: 10px;
+    
 }
 
 section#login > div#formulario > p {
@@ -72,8 +70,8 @@ section#login > div#formulario > p {
     padding: 10px;
     margin: 10px -10px 0px -10px;
     background-color: #6392BC;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
+    
+    
 
 }
 
