@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*
+Cores:
+Azul Claro: #A2CAED
+Azul Mais Escuro: #6392BC
+Beje: #CDC2AC
+*/
+
+/*
+Celulares: width - 375 x Height - 812.
+Tablet: height - 813 x width - 1024.
+Laptop: width - 1366 x height- 768.
+High-res laptop or desktop: width - 1920 x height - 1080.
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background-color: #A2CAED;
+}
+
+section#login {
+    background-color: white;
+    width: 375px;
+}
+
