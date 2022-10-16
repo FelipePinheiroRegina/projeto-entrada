@@ -9,7 +9,7 @@ Beje: #CDC2AC
 
 /*
 Celulares: width - 375 x Height - 812.
-Tablet: height - 813 x width - 1024.
+Tablet: width - 813 x height - 1024.
 Laptop: width - 1366 x height- 768.
 High-res laptop or desktop: width - 1920 x height - 1080.
 */
@@ -27,5 +27,6 @@ body, html {
 section#login {
     background-color: white;
     width: 375px;
+    height: 812px;
 }
 
