@@ -20,13 +20,20 @@ High-res laptop or desktop: width - 1920 x height - 1080.
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body, html {
+body {
     background-color: #A2CAED;
 }
 
 section#login {
     background-color: white;
-    width: 375px;
-    height: 812px;
+    width: 350px;
+    height: 600px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
 }
 
